@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>𝓙𝓸𝓴𝓮𝓻丨𝓜4 - Bot Factory 🔱</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',system-ui,sans-serif}
+:root{--bg:#0a0a1a;--card:#1a1a3e;--card2:#12122e;--purple:#9c6eff;--pink:#ff6fd8;--green:#6fff8f;--gold:#ffd76f;--blue:#6fb3ff;--red:#ff6d6d;--text:#ccccdd;--text2:#8888aa;--border:#222244}
+body{background:var(--bg);color:var(--text);direction:rtl}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--purple);border-radius:2px}
+::selection{background:var(--purple);color:#fff}
+
+/* Nav */
+.nav{position:fixed;top:0;left:0;right:0;background:var(--card2);border-bottom:1px solid var(--border);z-index:100;display:flex;align-items:center;padding:0 16px;height:56px}
+.nav-logo{font-size:20px;font-weight:bold;color:var(--purple)}
+.nav-links{display:flex;gap:4px;margin-right:auto}
+.nav-links a{padding:8px 14px;color:var(--text2);text-decoration:none;font-size:13px;border-radius:8px;transition:.2s}
+.nav-links a:hover,.nav-links a.active{color:var(--purple);background:rgba(156,110,255,.1)}
+
+/* Hero */
+.hero{padding:100px 20px 60px;text-align:center;background:linear-gradient(180deg,var(--card) 0%,var(--bg) 100%)}
+.hero-icon{font-size:72px;margin-bottom:12px;display:block}
+.hero h1{font-size:42px;color:var(--purple);margin-bottom:8px}
+.hero p{color:var(--pink);font-size:16px;margin-bottom:6px}
+.hero .sub{color:var(--text2);font-size:14px}
+.hero-badges{display:flex;justify-content:center;gap:12px;margin:20px 0;flex-wrap:wrap}
+.hero-badges span{background:var(--card);padding:8px 18px;border-radius:20px;font-size:13px;color:var(--text2);border:1px solid var(--border)}
+.hero .btn{display:inline-block;padding:14px 36px;background:var(--purple);color:#fff;text-decoration:none;border-radius:12px;font-size:16px;font-weight:bold;margin-top:16px;transition:.2s}
+.hero .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(156,110,255,.3)}
+
+/* Stats */
+.stats{display:flex;justify-content:center;gap:30px;padding:30px 20px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{font-size:28px;font-weight:bold;color:var(--gold);display:block}
+.stat-label{font-size:12px;color:var(--text2);margin-top:4px}
+
+/* Sections */
+.section{padding:40px 20px;max-width:1200px;margin:0 auto}
+.section h2{font-size:26px;color:var(--purple);margin-bottom:6px}
+.section .desc{color:var(--text2);font-size:14px;margin-bottom:24px}
+
+/* Tools Grid */
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.tool-card{background:var(--card);border-radius:12px;padding:16px;border:1px solid var(--border);transition:.2s;cursor:pointer}
+.tool-card:hover{border-color:var(--purple);transform:translateY(-2px)}
+.tool-card .icon{font-size:28px;display:block;margin-bottom:8px}
+.tool-card .name{font-size:14px;font-weight:bold;color:#fff;margin-bottom:4px}
+.tool-card .cat{font-size:11px;color:var(--text2);margin-bottom:6px}
+.tool-card .desc{font-size:12px;color:var(--text2);line-height:1.5}
+.tool-card .badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:10px;margin-top:8px}
+.badge-premium{background:rgba(255,107,107,.2);color:var(--red)}
+.badge-free{background:rgba(111,255,143,.15);color:var(--green)}
+.badge-server{background:rgba(111,179,255,.15);color:var(--blue)}
+
+/* Footer */
+.footer{text-align:center;padding:30px;color:var(--text2);font-size:13px;border-top:1px solid var(--border);margin-top:40px}
+.footer a{color:var(--purple);text-decoration:none}
+
+/* Modal */
+.modal-bg{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.7);z-index:200;justify-content:center;align-items:center}
+.modal-bg.show{display:flex}
+.modal{background:var(--card);border-radius:16px;padding:24px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;border:1px solid var(--border)}
+.modal h3{font-size:20px;color:var(--purple);margin-bottom:8px}
+.modal .icon{font-size:48px;text-align:center;display:block;margin-bottom:12px}
+.modal .desc{color:var(--text2);font-size:13px;line-height:1.7;margin-bottom:16px}
+.modal .btn-close{background:var(--border);border:none;color:var(--text);padding:10px 24px;border-radius:8px;font-size:13px;cursor:pointer;margin-left:8px}
+.modal .btn-launch{background:var(--purple);border:none;color:#fff;padding:10px 24px;border-radius:8px;font-size:13px;cursor:pointer}
+
+/* Search */
+.search-box{width:100%;padding:12px 16px;background:var(--card);border:1px solid var(--border);border-radius:10px;color:#fff;font-size:14px;margin-bottom:16px;outline:none}
+.search-box:focus{border-color:var(--purple)}
+
+/* Tabs */
+.cat-tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.cat-tab{padding:6px 14px;background:var(--card);border:1px solid var(--border);border-radius:20px;font-size:12px;color:var(--text2);cursor:pointer;transition:.2s}
+.cat-tab:hover,.cat-tab.active{background:var(--purple);color:#fff;border-color:var(--purple)}
+
+@media(max-width:600px){
+.hero h1{font-size:28px}
+.nav-links a{padding:6px 10px;font-size:12px}
+.tools-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <div class="nav-logo">🔱 𝓙𝓸𝓴𝓮𝓻丨𝓜4</div>
+  <div class="nav-links">
+    <a href="#" class="active" onclick="showSection('home')">الرئيسية</a>
+    <a href="#" onclick="showSection('tools')">الأدوات</a>
+    <a href="#" onclick="showSection('tools')">البلاتفورم</a>
+    <a href="https://quivery-loan-peevishly.ngrok-free.dev" target="_blank">الخادم المباشر</a>
+  </div>
+</div>
+
+<!-- Hero -->
+<div id="sec-home" class="hero">
+  <span class="hero-icon">🔱</span>
+  <h1>أسكوري</h1>
+  <p>𝓙𝓸𝓴𝓮𝓻丨𝓜4 Bot Factory</p>
+  <div class="sub">🔥 أقوى منصة صنع بوتات في العالم - 191 أداة احترافية مجاناً</div>
+  <div class="hero-badges">
+    <span>🛡️ 40 أداة أمنية</span>
+    <span>🤖 20 أداة AI</span>
+    <span>🌐 25 أداة سحاب</span>
+    <span>⚡ 50+ أداة احترافية</span>
+    <span>💰 أدوات مدفوعة مجاناً</span>
+  </div>
+  <a class="btn" href="#tools" onclick="showSection('tools')">🚀 استعرض الأدوات الآن</a>
+</div>
+
+<div class="stats">
+  <div class="stat"><span class="stat-num">191</span><span class="stat-label">أداة احترافية</span></div>
+  <div class="stat"><span class="stat-num">91</span><span class="stat-label">أداة بريميوم مجاناً</span></div>
+  <div class="stat"><span class="stat-num">18</span><span class="stat-label">تصنيف</span></div>
+  <div class="stat"><span class="stat-num">🔥</span><span class="stat-label">شغال 100%</span></div>
+</div>
+
+<!-- Tools Section -->
+<div id="sec-tools" class="section" style="display:none">
+  <h2>🔧 191 أداة احترافية</h2>
+  <div class="desc">أضخم مجموعة أدوات مجانية ومدفوعة الأصل - كلها شغالة 100%</div>
+  <input class="search-box" id="searchInput" placeholder="🔍 بحث في الأدوات..." oninput="filterTools()">
+  <div class="cat-tabs" id="catTabs"></div>
+  <div class="tools-grid" id="toolsGrid"></div>
+</div>
+
+<!-- Tool Modal -->
+<div class="modal-bg" id="toolModal">
+  <div class="modal">
+    <span class="icon" id="modalIcon">🔧</span>
+    <h3 id="modalName">أداة</h3>
+    <div class="desc" id="modalDesc">وصف الأداة</div>
+    <div style="text-align:center;margin-top:16px">
+      <button class="btn-close" onclick="closeModal()">إغلاق</button>
+      <button class="btn-launch" onclick="launchTool()">🚀 فتح الأداة</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  🔱 أسكوري v4.0.0 — 𝓙𝓸𝓴𝓮𝓻丨𝓜4 Bot Factory<br>
+  <a href="https://quivery-loan-peevishly.ngrok-free.dev" target="_blank">🚀 منصة البوتات المباشرة</a> &bull;
+  <a href="https://t.me/JOKER_M4" target="_blank">📱 تيليجرام</a>
+</div>
+
+<script>
+// ====== Tool Data ======
+var TOOLS = null;
+var CATEGORIES = {};
+var currentTool = null;
+
+// Load tools from JSON
+fetch('tools.json').then(r=>r.json()).then(d=>{
+    TOOLS = d.tools;
+    var cats = {};
+    d.tools.forEach(function(t){
+        if(!cats[t.category]) cats[t.category]=[];
+        cats[t.category].push(t);
+    });
+    CATEGORIES = cats;
+    initTools();
+}).catch(function(){
+    // Fallback
+    document.getElementById('toolsGrid').innerHTML = '<p style="color:var(--text2);text-align:center;padding:40px">⚠️ فشل تحميل الأدوات. تأكد من وجود ملف tools.json</p>';
+});
+
+function initTools() {
+    renderTabs();
+    renderTools(TOOLS);
+}
+
+function renderTabs() {
+    var html = '<span class="cat-tab active" onclick="filterByCat(\'all\',this)">📋 الكل ('+TOOLS.length+')</span>';
+    var keys = Object.keys(CATEGORIES);
+    keys.sort();
+    keys.forEach(function(c){
+        html += '<span class="cat-tab" onclick="filterByCat(\''+c+'\',this)">'+c+' ('+CATEGORIES[c].length+')</span>';
+    });
+    document.getElementById('catTabs').innerHTML = html;
+}
+
+function filterByCat(cat, el) {
+    document.querySelectorAll('.cat-tab').forEach(function(t){t.classList.remove('active')});
+    el.classList.add('active');
+    if(cat === 'all') renderTools(TOOLS);
+    else renderTools(CATEGORIES[cat] || []);
+}
+
+function filterTools() {
+    var q = document.getElementById('searchInput').value.toLowerCase();
+    if(!q) { renderTools(TOOLS); return; }
+    var filtered = TOOLS.filter(function(t){
+        return t.name.toLowerCase().includes(q) || t.description.toLowerCase().includes(q) || t.category.toLowerCase().includes(q);
+    });
+    renderTools(filtered);
+}
+
+function renderTools(list) {
+    var html = '';
+    list.forEach(function(t){
+        var badge = t.is_premium == 1
+            ? '<span class="badge badge-premium">💎 بريميوم مجاناً</span>'
+            : '<span class="badge badge-free">✅ مجاني</span>';
+        html += '<div class="tool-card" onclick="openTool('+t.id+')">'
+            + '<span class="icon">'+(t.icon||'🔧')+'</span>'
+            + '<div class="name">'+t.name+'</div>'
+            + '<div class="cat">📁 '+t.category+'</div>'
+            + '<div class="desc">'+t.description.substring(0,80)+'...</div>'
+            + badge
+            + '</div>';
+    });
+    if(!list.length) html = '<p style="color:var(--text2);text-align:center;padding:40px">لا توجد أدوات 😕</p>';
+    document.getElementById('toolsGrid').innerHTML = html;
+}
+
+function openTool(id) {
+    var t = TOOLS.find(function(x){return x.id==id});
+    if(!t) return;
+    currentTool = t;
+    document.getElementById('modalIcon').textContent = t.icon || '🔧';
+    document.getElementById('modalName').textContent = t.name;
+    document.getElementById('modalDesc').textContent = t.description;
+    document.getElementById('toolModal').classList.add('show');
+}
+
+function closeModal() {
+    document.getElementById('toolModal').classList.remove('show');
+}
+
+function launchTool() {
+    closeModal();
+    var url = 'https://quivery-loan-peevishly.ngrok-free.dev/dashboard/tools.php';
+    window.open(url, '_blank');
+}
+
+function showSection(sec) {
+    document.getElementById('sec-home').style.display = sec === 'home' ? '' : 'none';
+    document.getElementById('sec-tools').style.display = sec === 'tools' ? '' : 'none';
+    document.querySelectorAll('.nav-links a').forEach(function(a){a.classList.remove('active')});
+    document.querySelectorAll('.nav-links a')[sec==='home'?0:1].classList.add('active');
+}
+</script>
+</body>
+</html>

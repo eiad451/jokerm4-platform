@@ -1,0 +1,1724 @@
+{
+    "tools": [
+        {
+            "id": 73,
+            "name": "ناشر تلقائي",
+            "description": "ينشر تلقائياً على تويتر وفيسبوك في وقت محدد",
+            "category": "أتمتة",
+            "icon": "📢",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 74,
+            "name": "راسل جماعي",
+            "description": "يرسل رسائل بريد إلكتروني جماعية",
+            "category": "أتمتة",
+            "icon": "✉️",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 75,
+            "name": "معلق آلي",
+            "description": "يعلق تلقائياً على المدونات والمواقع",
+            "category": "أتمتة",
+            "icon": "💬",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 76,
+            "name": "مولّد المهام",
+            "description": "يخلق ويجدول مهام متكررة (Cron Jobs)",
+            "category": "أتمتة",
+            "icon": "⏰",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 77,
+            "name": "مختبر Webhook",
+            "description": "يختبر Webhooks ويرسل طلبات تجريبية",
+            "category": "أتمتة",
+            "icon": "🪝",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 78,
+            "name": "باني API",
+            "description": "يبني طلبات API معقدة (GET, POST, PUT, DELETE)",
+            "category": "أتمتة",
+            "icon": "📡",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 79,
+            "name": "ناسخ القوالب",
+            "description": "يملأ قوالب متكررة تلقائياً",
+            "category": "أتمتة",
+            "icon": "📄",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 80,
+            "name": "مختصر الروابط",
+            "description": "يختصر الروابط مع إحصائيات",
+            "category": "أتمتة",
+            "icon": "🔗",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 81,
+            "name": "باني الردود التلقائية",
+            "description": "يبني ردود تلقائية للبوتات والمواقع",
+            "category": "أتمتة",
+            "icon": "🤖",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 82,
+            "name": "منسق الملفات",
+            "description": "يعيد تسمية وينظم الملفات تلقائياً",
+            "category": "أتمتة",
+            "icon": "🗂️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 83,
+            "name": "باحث السيرفرات",
+            "description": "يكتشف السيرفرات النشطة في نطاق IP",
+            "category": "أتمتة",
+            "icon": "🖥️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 84,
+            "name": "مُحلّل السجلات",
+            "description": "يحلل سجلات السيرفر ويستخرج الأنماط",
+            "category": "أتمتة",
+            "icon": "📊",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 183,
+            "name": "أداة أتمتة التسويق",
+            "description": "أتمتة كاملة للتسويق: إيميلات، منشورات، إعلانات - تزيد المبيعات 300%",
+            "category": "أتمتة",
+            "icon": "📢",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 184,
+            "name": "أداة نسخ احتياطي تلقائي",
+            "description": "نسخ احتياطي تلقائي للموقع وقاعدة البيانات إلى 5 سيرفرات مختلفة",
+            "category": "أتمتة",
+            "icon": "💾",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 185,
+            "name": "أداة جدولة المهام",
+            "description": "جدولة متقدمة للمهام: توقيت، تكرار، إشعارات - تنفيذ تلقائي للمهام",
+            "category": "أتمتة",
+            "icon": "⏰",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 186,
+            "name": "أداة البريد الجماعي الذكي",
+            "description": "إرسال آلاف الإيميلات مع تتبع الفتح والنقر - نسبه وصول 99%",
+            "category": "أتمتة",
+            "icon": "📨",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 8,
+            "name": "بوت الأخبار",
+            "description": "يجيب آخر الأخبار من مصادر متعددة",
+            "category": "أخبار",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 130,
+            "name": "مولد UUID",
+            "description": "يولد معرفات UUID فريدة",
+            "category": "أخرى",
+            "icon": "🆔",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 131,
+            "name": "مولد لوريم",
+            "description": "يولد نصوص Lorem Ipsum",
+            "category": "أخرى",
+            "icon": "📝",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 132,
+            "name": "معلومات الدولة",
+            "description": "يجلب معلومات عن أي دولة (علم، عاصمة، عملة)",
+            "category": "أخرى",
+            "icon": "🌍",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 133,
+            "name": "محول التواريخ",
+            "description": "يحول التواريخ بين التقويم الهجري والميلادي",
+            "category": "أخرى",
+            "icon": "📅",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 134,
+            "name": "حاسبة العمر",
+            "description": "يحسب العمر بالسنين والشهور والأيام",
+            "category": "أخرى",
+            "icon": "🎂",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 166,
+            "name": "محلل البلوكتشين والعملات",
+            "description": "تحليل العملات الرقمية: سعر، حجم تداول، محافظ كبرى - بيانات لحظية",
+            "category": "أخرى",
+            "icon": "💰",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 167,
+            "name": "أداة تسويق السوشيال ميديا",
+            "description": "إدارة حسابات التواصل الاجتماعي: نشر، جدولة، تحليل - 10 منصات",
+            "category": "أخرى",
+            "icon": "📱",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 168,
+            "name": "منشئ المتاجر الإلكترونية",
+            "description": "يبني متجر إلكتروني كامل جاهز للربح - مع نظام الدفع والشحن",
+            "category": "أخرى",
+            "icon": "🏪",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 169,
+            "name": "أداة السيو لليوتيوب",
+            "description": "تحسين فيديوهات يوتيوب: كلمات مفتاحية، عناوين، وصف - يزيد المشاهدات",
+            "category": "أخرى",
+            "icon": "▶️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 170,
+            "name": "محلل السوق والمنتجات",
+            "description": "يكشف المنتجات الرابحة وتحليل السوق والمنافسين - للدروب شيبينغ",
+            "category": "أخرى",
+            "icon": "📈",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 191,
+            "name": "أداة تحليل الهاشتاغ",
+            "description": "تحليل الهاشتاغات في تويتر وإنستغرام: الوصول، التفاعل، الاتجاهات",
+            "category": "أخرى",
+            "icon": "#️⃣",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 6,
+            "name": "مولد الباركود",
+            "description": "يصنع باركود أو QR من أي نص",
+            "category": "أدوات",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 7,
+            "name": "محول الصور",
+            "description": "يحول الصور بين الصيغ ويضغطها",
+            "category": "أدوات",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 9,
+            "name": "حاسبة",
+            "description": "آلة حاسبة متكاملة",
+            "category": "أدوات",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 175,
+            "name": "مولد API احترافي",
+            "description": "يصنع API كامل لأي مشروع مع توثيق وإدارة - جاهز للاستخدام",
+            "category": "أدوات",
+            "icon": "⚙️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 176,
+            "name": "Debugger Pro",
+            "description": "مصحح أكواد متقدم يدعم 20+ لغة برمجة - البحث عن الأخطاء وإصلاحها",
+            "category": "أدوات",
+            "icon": "🐛",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 177,
+            "name": "مولد قواعد البيانات",
+            "description": "يبني قواعد بيانات SQL و NoSQL كاملة من وصف النص - بتصميم احترافي",
+            "category": "أدوات",
+            "icon": "🗄️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 178,
+            "name": "Git Manager Pro",
+            "description": "إدارة متقدمة لمشاريع GitHub: نسخ احتياطي، دمج، تحليل الأكواد",
+            "category": "أدوات",
+            "icon": "🔄",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 187,
+            "name": "أداة إنشاء الفواتير",
+            "description": "ينشئ فواتير احترافية للشركات - يدعم الضرائب والعملات المتعددة",
+            "category": "أدوات",
+            "icon": "🧾",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 188,
+            "name": "محلل العقود والمستندات",
+            "description": "يحلل العقود القانونية ويكشف البنود المخفية والمخاطر - للشركات",
+            "category": "أدوات",
+            "icon": "⚖️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 105,
+            "name": "راسل تيليجرام",
+            "description": "يرسل رسائل جماعية لمجموعات تيليجرام",
+            "category": "أدوات البوتات",
+            "icon": "📨",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 106,
+            "name": "منضم\/مغادر",
+            "description": "يضيف أو يزيل البوت من مجموعات تلقائياً",
+            "category": "أدوات البوتات",
+            "icon": "🔄",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 107,
+            "name": "باحث يوزرات",
+            "description": "يستخرج معلومات مستخدمي تيليجرام",
+            "category": "أدوات البوتات",
+            "icon": "👤",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 108,
+            "name": "مجدول المنشورات",
+            "description": "يجدول وينشر منشورات في القنوات",
+            "category": "أدوات البوتات",
+            "icon": "📅",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 109,
+            "name": "مستخرج الأعضاء",
+            "description": "يستخرج أعضاء المجموعات",
+            "category": "أدوات البوتات",
+            "icon": "👥",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 110,
+            "name": "محلل البوتات",
+            "description": "يحلل أداء البوت ويعرض إحصائيات",
+            "category": "أدوات البوتات",
+            "icon": "📊",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 111,
+            "name": "باني الأزرار",
+            "description": "يبني أزرار تفاعلية للبوت",
+            "category": "أدوات البوتات",
+            "icon": "🔘",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 112,
+            "name": "مختبر الإنلاين",
+            "description": "يختبر وضع Inline Mode",
+            "category": "أدوات البوتات",
+            "icon": "🧪",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 113,
+            "name": "منقّح الرسائل",
+            "description": "ينقي ويفلتر الرسائل تلقائياً",
+            "category": "أدوات البوتات",
+            "icon": "🧹",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 114,
+            "name": "محول Sticker",
+            "description": "يحول الصور إلى Stickers",
+            "category": "أدوات البوتات",
+            "icon": "🎭",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 156,
+            "name": "بوت متجر الكتروني كامل",
+            "description": "بوت تيليجرام متكامل لمتجر إلكتروني مع سلة مشتريات ودفع - النسخة الأصلية",
+            "category": "أدوات البوتات",
+            "icon": "🛒",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 157,
+            "name": "بوت حجز مواعيد",
+            "description": "نظام حجز مواعيد متكامل مع تذكير وتقويم - مستخدم في عيادات وصالونات",
+            "category": "أدوات البوتات",
+            "icon": "📅",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 158,
+            "name": "بوت إدارة المجموعات Pro",
+            "description": "أداة إدارة متقدمة للمجموعات: ترحيب، فلترة، حظر تلقائي، إحصائيات",
+            "category": "أدوات البوتات",
+            "icon": "👥",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 159,
+            "name": "بوت تحميل من كل المواقع",
+            "description": "يحمل فيديوهات وصور من YouTube, Instagram, TikTok, Facebook - بدون علامات مائية",
+            "category": "أدوات البوتات",
+            "icon": "⬇️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 160,
+            "name": "بوت مسابقات وجوائز",
+            "description": "بوت مسابقات متكامل مع سحب وجوائز ونظام نقاط - يزيد التفاعل 500%",
+            "category": "أدوات البوتات",
+            "icon": "🎯",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 26,
+            "name": "ماسح المنافذ",
+            "description": "يفحص المنافذ المفتوحة في أي سيرفر (1-65535)",
+            "category": "أمن المعلومات",
+            "icon": "🔌",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 27,
+            "name": "باحث الصفحات المخفية",
+            "description": "يكتشف صفحات المسؤول وملفات النسخ الاحتياطي",
+            "category": "أمن المعلومات",
+            "icon": "🔍",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 28,
+            "name": "كاشف الصب دومين",
+            "description": "يكتشف كل النطاقات الفرعية لأي دومين",
+            "category": "أمن المعلومات",
+            "icon": "🌐",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 29,
+            "name": "باحث DNS",
+            "description": "يستخرج كل سجلات DNS لأي نطاق",
+            "category": "أمن المعلومات",
+            "icon": "🔗",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 30,
+            "name": "معلومات WHOIS",
+            "description": "يجلب معلومات مالك النطاق بالكامل",
+            "category": "أمن المعلومات",
+            "icon": "📋",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 31,
+            "name": "متتبع الموقع الجغرافي",
+            "description": "يحدد موقع أي IP على الخريطة",
+            "category": "أمن المعلومات",
+            "icon": "🗺️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 32,
+            "name": "مدقق SSL",
+            "description": "يفحص صلاحية وثغرات شهادة SSL",
+            "category": "أمن المعلومات",
+            "icon": "🔒",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 33,
+            "name": "محلل الهيدرات",
+            "description": "يحلل هيدرات الاستجابة لأي موقع",
+            "category": "أمن المعلومات",
+            "icon": "📊",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 34,
+            "name": "ماسح الثغرات",
+            "description": "يكتشف الثغرات الأمنية الشائعة في المواقع",
+            "category": "أمن المعلومات",
+            "icon": "⚠️",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 35,
+            "name": "كاشف SQLi",
+            "description": "يختبر وجود ثغرات حقن SQL",
+            "category": "أمن المعلومات",
+            "icon": "💉",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 36,
+            "name": "ماسح XSS",
+            "description": "يكتشف ثغرات XSS في المواقع",
+            "category": "أمن المعلومات",
+            "icon": "🕸️",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 37,
+            "name": "باحث الباك اب",
+            "description": "يكتشف ملفات النسخ الاحتياطي المكشوفة",
+            "category": "أمن المعلومات",
+            "icon": "💾",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 38,
+            "name": "محقق الإيميلات",
+            "description": "يكتشف تسريب بيانات الإيميل في الاختراقات",
+            "category": "أمن المعلومات",
+            "icon": "📬",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 39,
+            "name": "باحث أرقام الهواتف",
+            "description": "يجلب معلومات عن أي رقم هاتف",
+            "category": "أمن المعلومات",
+            "icon": "📱",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 40,
+            "name": "باحث اليوزرات",
+            "description": "يبحث عن اسم المستخدم في +300 موقع",
+            "category": "أمن المعلومات",
+            "icon": "👤",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 41,
+            "name": "محلل كلمات السر",
+            "description": "يختبر قوة أي كلمة سر",
+            "category": "أمن المعلومات",
+            "icon": "🔐",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 42,
+            "name": "هاش جنريتور",
+            "description": "يولد هاشات (MD5, SHA1, SHA256, SHA512)",
+            "category": "أمن المعلومات",
+            "icon": "#️⃣",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 43,
+            "name": "مشفّر النصوص",
+            "description": "يشفر ويفك تشفير النصوص (AES, Base64, Caesar)",
+            "category": "أمن المعلومات",
+            "icon": "🔐",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 44,
+            "name": "ماسح البورتات السريع",
+            "description": "فحص سريع لأشهر 1000 بورت",
+            "category": "أمن المعلومات",
+            "icon": "⚡",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 45,
+            "name": "مولد الباسورد",
+            "description": "يولد كلمات سر فائقة القوة",
+            "category": "أمن المعلومات",
+            "icon": "🎲",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 135,
+            "name": "أداة اختراق المواقع ضد الاختراق",
+            "description": "أداة احترافية لفحص الثغرات الأمنية في المواقع وتحليلها وإصلاحها - الإصدار الأصلي المدفوع",
+            "category": "أمن المعلومات",
+            "icon": "🛡️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 136,
+            "name": "ثغرات SQL Injection المتقدمة",
+            "description": "أداة احترافية لكشف وإصلاح ثغرات SQL Injection في قواعد البيانات - النسخة الكاملة",
+            "category": "أمن المعلومات",
+            "icon": "💉",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 137,
+            "name": "اختبار الاختراق الشامل",
+            "description": "أداة Pentesting كاملة مع 500+ اختبار أمني - مستخدمة من شركات الأمن العالمية",
+            "category": "أمن المعلومات",
+            "icon": "🔬",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 138,
+            "name": "كشف البرمجيات الخبيثة",
+            "description": "يفحص الملفات والروابط بحثاً عن فيروسات وبرمجيات خبيثة بقاعدة بيانات محدثة",
+            "category": "أمن المعلومات",
+            "icon": "🦠",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 139,
+            "name": "أداة فحص الشبكات Nmap Pro",
+            "description": "إصدار احترافي من Nmap مع واجهة رسومية وتقارير مفصلة - النسخة الأصلية",
+            "category": "أمن المعلومات",
+            "icon": "🌐",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 140,
+            "name": "VPN Checker - كشف VPN والبروكسي",
+            "description": "يكشف إذا كان المستخدم يستخدم VPN أو Proxy بدقة 99.9%",
+            "category": "أمن المعلومات",
+            "icon": "🔒",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 141,
+            "name": "كشف هجمات DDoS",
+            "description": "يراقب ويمنع هجمات حجب الخدمة الموزعة - مستخدم من شركات كبرى",
+            "category": "أمن المعلومات",
+            "icon": "⚔️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 142,
+            "name": "تشفير الملفات العسكري AES-256",
+            "description": "تشفير الملفات بأعلى معايير الأمان العسكري - النسخة المدفوعة",
+            "category": "أمن المعلومات",
+            "icon": "🔐",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 46,
+            "name": "كاتب محتوى ذكي",
+            "description": "يكتب مقالات ومواضيع كاملة بالذكاء الاصطناعي",
+            "category": "الذكاء الاصطناعي",
+            "icon": "✍️",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 47,
+            "name": "مساعد برمجة ذكي",
+            "description": "يكتب ويصحح أكواد برمجية",
+            "category": "الذكاء الاصطناعي",
+            "icon": "💻",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 48,
+            "name": "وصف الصور بالذكاء الاصطناعي",
+            "description": "يحلل الصور ويكتب وصف دقيق لها",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🖼️",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 49,
+            "name": "ملخّص النصوص",
+            "description": "يلخص أي نص طويل في نقاط",
+            "category": "الذكاء الاصطناعي",
+            "icon": "📝",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 50,
+            "name": "مدقق النحو والإملاء",
+            "description": "يصحح الأخطاء النحوية والإملائية",
+            "category": "الذكاء الاصطناعي",
+            "icon": "✅",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 51,
+            "name": "إعادة صياغة",
+            "description": "يعيد صياغة النصوص بأساليب مختلفة",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🔄",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 52,
+            "name": "كاتب بوستات سوشيال",
+            "description": "يكتب بوستات احترافية لتويتر وفيسبوك وإنستقرام",
+            "category": "الذكاء الاصطناعي",
+            "icon": "📱",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 53,
+            "name": "كاتب وصف منتجات",
+            "description": "يكتب أوصاف تسويقية للمنتجات",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🏷️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 54,
+            "name": "مترجم فوري 100 لغة",
+            "description": "يترجم بين 100+ لغة بدقة عالية",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🌍",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 55,
+            "name": "مستخرج الكلمات المفتاحية",
+            "description": "يستخرج الكلمات المفتاحية من أي نص",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🔑",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 56,
+            "name": "محلل المشاعر",
+            "description": "يحلل المشاعر في النص (إيجابي\/سلبي\/محايد)",
+            "category": "الذكاء الاصطناعي",
+            "icon": "😊",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 57,
+            "name": "مولد الأسئلة",
+            "description": "يولد أسئلة وأجوبة من أي نص تعليمي",
+            "category": "الذكاء الاصطناعي",
+            "icon": "❓",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 143,
+            "name": "ChatGPT Pro API - بدون حدود",
+            "description": "بوت ChatGPT متكامل مع API مفتوح بدون حدود استخدام - الإصدار الأصلي",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🤖",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 144,
+            "name": "مولد الصور بالذكاء الاصطناعي",
+            "description": "يولد صور احترافية من النصوص باستخدام DALL-E و Midjourney - النسخة الكاملة",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🎨",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 145,
+            "name": "DeepSeek AI - محلل النصوص",
+            "description": "تحليل نصوص متقدم باستخدام DeepSeek - استخراج المشاعر، التلخيص، التصنيف",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🧠",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 146,
+            "name": "محرر الفيديو بالذكاء الاصطناعي",
+            "description": "يعدل الفيديوهات ويضيف مؤثرات ويولد فيديوهات جديدة بالذكاء الاصطناعي",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🎬",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 147,
+            "name": "مولد الأكواد البرمجية AI",
+            "description": "يولد أكواد برمجية كاملة بأي لغة باستخدام الذكاء الاصطناعي - مثل GitHub Copilot",
+            "category": "الذكاء الاصطناعي",
+            "icon": "💻",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 148,
+            "name": "مترجم AI احترافي",
+            "description": "ترجمة احترافية مع الحفاظ على المعنى والسياق - يدعم 100+ لغة",
+            "category": "الذكاء الاصطناعي",
+            "icon": "🌍",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 149,
+            "name": "تحليل البيانات الضخمة AI",
+            "description": "يحلل كميات ضخمة من البيانات ويكشف الأنماط والاتجاهات المخفية",
+            "category": "الذكاء الاصطناعي",
+            "icon": "📊",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 150,
+            "name": "Chatbot ذكي للدعم الفني",
+            "description": "بوت دعم فني ذكي يرد على العملاء تلقائياً بنسبة دقة 95%",
+            "category": "الذكاء الاصطناعي",
+            "icon": "💬",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 190,
+            "name": "Content Writer AI",
+            "description": "يكتب محتوى تسويقي احترافي: مقالات، منشورات، إعلانات - بالعربية والإنجليزية",
+            "category": "الذكاء الاصطناعي",
+            "icon": "✍️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 10,
+            "name": "البحث في يوتيوب",
+            "description": "يبحث عن فيديوهات ويجيب روابط",
+            "category": "بحث",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 85,
+            "name": "محلل CSV",
+            "description": "يحلل ملفات CSV ويعرض إحصائيات",
+            "category": "تحليل بيانات",
+            "icon": "📊",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 86,
+            "name": "مستكشف JSON",
+            "description": "يتصفح بيانات JSON بشكل تفاعلي",
+            "category": "تحليل بيانات",
+            "icon": "🔎",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 87,
+            "name": "محلل زوار المواقع",
+            "description": "يحلل حركة الزوار شبيه SimilarWeb",
+            "category": "تحليل بيانات",
+            "icon": "👥",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 88,
+            "name": "محلل سوشيال ميديا",
+            "description": "يحلل إحصائيات السوشيال ميديا",
+            "category": "تحليل بيانات",
+            "icon": "📈",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 89,
+            "name": "متتبع الكلمات المفتاحية",
+            "description": "يتتبع ترتيب الكلمات المفتاحية",
+            "category": "تحليل بيانات",
+            "icon": "🎯",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 90,
+            "name": "باحث الباك لينك",
+            "description": "يكتشف الباك لينكس لأي موقع",
+            "category": "تحليل بيانات",
+            "icon": "🔗",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 91,
+            "name": "محلل سلطة الموقع",
+            "description": "يحلل Domain Authority و Page Authority",
+            "category": "تحليل بيانات",
+            "icon": "🏆",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 92,
+            "name": "محلل سرعة الموقع",
+            "description": "يختبر سرعة الموقع وأداؤه",
+            "category": "تحليل بيانات",
+            "icon": "⚡",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 93,
+            "name": "محلل SEO",
+            "description": "يحلل تحسينات محركات البحث لأي صفحة",
+            "category": "تحليل بيانات",
+            "icon": "🔍",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 94,
+            "name": "محلل المنافسين",
+            "description": "يقارن بين موقعين ويظهر الفروقات",
+            "category": "تحليل بيانات",
+            "icon": "🥊",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 179,
+            "name": "Google Analytics Pro",
+            "description": "تحليل متقدم لإحصائيات الموقع: سلوك الزوار، مسار التحويل، التقارير",
+            "category": "تحليل بيانات",
+            "icon": "📉",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 180,
+            "name": "محلل المشاعر",
+            "description": "يحلل المشاعر في النصوص: غضب، سعادة، حزن - للتسويق وخدمة العملاء",
+            "category": "تحليل بيانات",
+            "icon": "😊",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 181,
+            "name": "أداة الاستبيانات والدراسات",
+            "description": "ينشئ استبيانات احترافية ويحلل النتائج تلقائياً - تقارير ذكية",
+            "category": "تحليل بيانات",
+            "icon": "📋",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 182,
+            "name": "Web Scraper Pro",
+            "description": "يسحب بيانات من أي موقع ويب - للجكات، الأخبار، المنتجات، الأسعار",
+            "category": "تحليل بيانات",
+            "icon": "🕸️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 2,
+            "name": "محلل الروابط",
+            "description": "يستخرج معلومات من أي رابط (عنوان، وصف، صور)",
+            "category": "تحميل",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 3,
+            "name": "مترجم فوري",
+            "description": "يترجم أي نص إلى أي لغة باستخدام API خارجي",
+            "category": "ترجمة",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 5,
+            "name": "بوت الألعاب",
+            "description": "ألعاب تفاعلية: اكس او، رشق سهام، حزازير",
+            "category": "ترفيه",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 58,
+            "name": "دمج PDF",
+            "description": "يدمج ملفات PDF متعددة في ملف واحد",
+            "category": "تعديل الملفات",
+            "icon": "📄",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 59,
+            "name": "تقسيم PDF",
+            "description": "يقسم ملف PDF إلى صفحات منفصلة",
+            "category": "تعديل الملفات",
+            "icon": "✂️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 60,
+            "name": "تغيير حجم الصور",
+            "description": "يغير أبعاد وجودة الصور",
+            "category": "تعديل الملفات",
+            "icon": "📐",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 61,
+            "name": "نص من الصور OCR",
+            "description": "يستخرج النص المكتوب من الصور",
+            "category": "تعديل الملفات",
+            "icon": "👁️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 62,
+            "name": "محول بين الصيغ",
+            "description": "يحول بين JSON و XML و CSV و YAML",
+            "category": "تعديل الملفات",
+            "icon": "🔄",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 63,
+            "name": "منسق JSON",
+            "description": "ينسق ويدقق صحة JSON",
+            "category": "تعديل الملفات",
+            "icon": "📋",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 64,
+            "name": "ضاغط الكود",
+            "description": "يضغط HTML وCSS وJS",
+            "category": "تعديل الملفات",
+            "icon": "🗜️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 65,
+            "name": "مشفر Base64",
+            "description": "يشفر ويفك تشفير Base64",
+            "category": "تعديل الملفات",
+            "icon": "🔣",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 66,
+            "name": "مقارن النصوص",
+            "description": "يقارن نصين ويظهر الفروقات",
+            "category": "تعديل الملفات",
+            "icon": "🔍",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 67,
+            "name": "منسق الكود",
+            "description": "ينسق كود PHP وJS وPython",
+            "category": "تعديل الملفات",
+            "icon": "✨",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 68,
+            "name": "معاينة ماركداون",
+            "description": "يكتب ويعاين نصوص Markdown",
+            "category": "تعديل الملفات",
+            "icon": "📝",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 69,
+            "name": "مولد QR",
+            "description": "يصنع كود QR من أي نص",
+            "category": "تعديل الملفات",
+            "icon": "📱",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 70,
+            "name": "مولد الباركود",
+            "description": "يصنع باركود من أي رقم",
+            "category": "تعديل الملفات",
+            "icon": "🔲",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 71,
+            "name": "منتقي الألوان",
+            "description": "يحول الألوان بين HEX و RGB و HSL",
+            "category": "تعديل الملفات",
+            "icon": "🎨",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 72,
+            "name": "مصحح الترميز",
+            "description": "يكتشف ويصحح ترميز النصوص (UTF-8, ASCII, Windows-1256)",
+            "category": "تعديل الملفات",
+            "icon": "🔤",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 161,
+            "name": "محرر PDF متكامل",
+            "description": "يعدل ملفات PDF: دمج، تقسيم، ضغط، تحرير، توقيع - النسخة المدفوعة الكاملة",
+            "category": "تعديل الملفات",
+            "icon": "📄",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 162,
+            "name": "محول الصيغ الشامل",
+            "description": "يحول بين 1000+ صيغة: فيديو، صوت، صورة، مستندات - بدون فقدان الجودة",
+            "category": "تعديل الملفات",
+            "icon": "🔄",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 163,
+            "name": "معالج الصور الاحترافي",
+            "description": "تعديل الصور: إزالة الخلفية، تحسين الجودة، فلاتر، تأثيرات - مثل Photoshop",
+            "category": "تعديل الملفات",
+            "icon": "🖼️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 164,
+            "name": "ضاغط الملفات الذكي",
+            "description": "يضغط الملفات بنسبة تصل إلى 90% بدون فقدان الجودة - للصور والفيديو",
+            "category": "تعديل الملفات",
+            "icon": "🗜️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 165,
+            "name": "مستخرج النصوص من الصور OCR",
+            "description": "يستخرج النصوص من الصور بدقة 99% - يدعم العربية والإنجليزية",
+            "category": "تعديل الملفات",
+            "icon": "📝",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 1,
+            "name": "مولد الردود التلقائية",
+            "description": "يرد تلقائياً على أي رسالة بكلمات مبرمجة",
+            "category": "ردود",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 11,
+            "name": "سحاب إنستقرام",
+            "description": "يسحب صور وفيديوهات وقصص من أي حساب إنستقرام عام",
+            "category": "سحاب المواقع",
+            "icon": "📸",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 12,
+            "name": "سحاب تيك توك",
+            "description": "يحمل فيديوهات تيك توك بدون علامة مائية",
+            "category": "سحاب المواقع",
+            "icon": "🎵",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 13,
+            "name": "سحاب يوتيوب",
+            "description": "يسحب معلومات الفيديو وتحليل القناة بالكامل",
+            "category": "سحاب المواقع",
+            "icon": "▶️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 14,
+            "name": "سحاب تويتر",
+            "description": "يستخرج التغريدات والصور من أي حساب تويتر",
+            "category": "سحاب المواقع",
+            "icon": "🐦",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 15,
+            "name": "سحاب فيسبوك",
+            "description": "يحمل منشورات وصفحات فيسبوك العامة",
+            "category": "سحاب المواقع",
+            "icon": "📘",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 16,
+            "name": "سحاب لينكد إن",
+            "description": "يسحب بيانات الملفات الشخصية من لينكد إن",
+            "category": "سحاب المواقع",
+            "icon": "💼",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 17,
+            "name": "متتبع أمازون",
+            "description": "يراقب أسعار المنتجات في أمازون ويحلل التغيرات",
+            "category": "سحاب المواقع",
+            "icon": "📦",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 18,
+            "name": "سحاب المتاجر",
+            "description": "يستخرج منتجات من أي متجر إلكتروني (Shopify, WooCommerce)",
+            "category": "سحاب المواقع",
+            "icon": "🛒",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 19,
+            "name": "سحاب خرائط جوجل",
+            "description": "يسحب بيانات الأعمال من خرائط جوجل (الاسم، الموقع، التقييم)",
+            "category": "سحاب المواقع",
+            "icon": "📍",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 20,
+            "name": "سحاب الإيميلات",
+            "description": "يبحث عن عناوين بريد إلكتروني من أي موقع",
+            "category": "سحاب المواقع",
+            "icon": "📧",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 21,
+            "name": "مجمّع الأخبار",
+            "description": "يجمع آخر الأخبار من 50+ مصدر عربي وعالمي",
+            "category": "سحاب المواقع",
+            "icon": "📰",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 22,
+            "name": "سحاب الواتساب ويب",
+            "description": "يستخرج أرقام مجموعات واتساب العامة",
+            "category": "سحاب المواقع",
+            "icon": "💬",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 23,
+            "name": "سحاب بنترست",
+            "description": "يسحب صور وأفكار من بنترست",
+            "category": "سحاب المواقع",
+            "icon": "📌",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 24,
+            "name": "سحاب سناب شات",
+            "description": "يسحب قصص سناب شات العامة",
+            "category": "سحاب المواقع",
+            "icon": "👻",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 25,
+            "name": "أرشيف المواقع",
+            "description": "يجلب نسخ قديمة من أي موقع من Wayback Machine",
+            "category": "سحاب المواقع",
+            "icon": "📚",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 151,
+            "name": "أداة SEO المتقدمة",
+            "description": "تحسين محركات البحث احترافي - تحليل الكلمات المفتاحية، المنافسين، التقارير",
+            "category": "سحاب المواقع",
+            "icon": "🔍",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 152,
+            "name": "منشئ المواقع بالذكاء الاصطناعي",
+            "description": "يبني موقع كامل من وصف نصي - HTML\/CSS\/JS جاهز - النسخة المدفوعة",
+            "category": "سحاب المواقع",
+            "icon": "🏗️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 153,
+            "name": "كشف السيو المحلي",
+            "description": "تحليل SEO للمتاجر المحلية - Google My Business، خرائط Google وغيرها",
+            "category": "سحاب المواقع",
+            "icon": "📍",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 154,
+            "name": "أداة تحليل المنافسين",
+            "description": "يحلل مواقع المنافسين بالكامل: ترافيك، كلمات مفتاحية، استراتيجيات - سرقة الأسواق",
+            "category": "سحاب المواقع",
+            "icon": "🏆",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 155,
+            "name": "أداة بناء الروابط",
+            "description": "يبني روابط خلفية قوية لموقعك تلقائياً - 1000 رابط شهرياً",
+            "category": "سحاب المواقع",
+            "icon": "🔗",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 189,
+            "name": "أداة الـ Keyword Research",
+            "description": "بحث متقدم عن الكلمات المفتاحية مع تحليل المنافسة وحجم البحث",
+            "category": "سحاب المواقع",
+            "icon": "🔑",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 95,
+            "name": "بينغ",
+            "description": "يرسل طلبات ping لأي سيرفر",
+            "category": "شبكات",
+            "icon": "📶",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 96,
+            "name": "تراسروت",
+            "description": "يتتبع مسار الحزم لأي سيرفر",
+            "category": "شبكات",
+            "icon": "🗺️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 97,
+            "name": "محلل DNS",
+            "description": "يحلل ويحل DNS لأي نطاق",
+            "category": "شبكات",
+            "icon": "🔗",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 98,
+            "name": "فاحص HTTP",
+            "description": "يفحص حالة ورؤوس HTTP",
+            "category": "شبكات",
+            "icon": "🌐",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 99,
+            "name": "ماسح الشبكة",
+            "description": "يفحص الأجهزة المتصلة بالشبكة",
+            "category": "شبكات",
+            "icon": "🖧",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 100,
+            "name": "باحث MAC",
+            "description": "يبحث عن صانع الجهاز بواسطة MAC Address",
+            "category": "شبكات",
+            "icon": "🔍",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 101,
+            "name": "باحث ASN",
+            "description": "يبحث عن معلومات ASN",
+            "category": "شبكات",
+            "icon": "🏢",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 102,
+            "name": "عكس IP",
+            "description": "يكتشف المواقع المستضافة على نفس IP",
+            "category": "شبكات",
+            "icon": "🔄",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 103,
+            "name": "فاحص بروكسي",
+            "description": "يفحص صلاحية البروكسيات",
+            "category": "شبكات",
+            "icon": "🔌",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 104,
+            "name": "مولد الحزم",
+            "description": "يولد حزم شبكة مخصصة",
+            "category": "شبكات",
+            "icon": "📦",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 171,
+            "name": "Speed Test Pro",
+            "description": "اختبار سرعة الإنترنت بدقة عالية مع تقارير مفصلة وتاريخ السرعات",
+            "category": "شبكات",
+            "icon": "⚡",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 172,
+            "name": "Network Mapper",
+            "description": "يرسم خريطة كاملة للشبكة ويكشف جميع الأجهزة المتصلة والخدمات",
+            "category": "شبكات",
+            "icon": "🗺️",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 173,
+            "name": "محلل البريد الإلكتروني",
+            "description": "يكشف معلومات المرسل، تحليل رؤوس البريد، كشف التزييف والتتبع",
+            "category": "شبكات",
+            "icon": "📧",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 174,
+            "name": "Bandwidth Monitor",
+            "description": "مراقبة استهلاك النطاق الترددي وتحليل استخدام الإنترنت - تقارير يومية",
+            "category": "شبكات",
+            "icon": "📶",
+            "is_premium": 1,
+            "price": 1
+        },
+        {
+            "id": 115,
+            "name": "محلل SimilarWeb",
+            "description": "يحلل ترافيك المواقع مجاناً (مثل SimilarWeb المدفوع)",
+            "category": "مدفوعة مجاناً",
+            "icon": "🌐",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 116,
+            "name": "باحث الكلمات SEMrush",
+            "description": "بحث كلمات مفتاحية (مثل SEMrush)",
+            "category": "مدفوعة مجاناً",
+            "icon": "🔑",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 117,
+            "name": "فاحص Ahrefs Backlinks",
+            "description": "يفحص الباك لينكس (مثل Ahrefs المدفوع)",
+            "category": "مدفوعة مجاناً",
+            "icon": "🔗",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 118,
+            "name": "محلل Moz DA\/PA",
+            "description": "يقيس Domain Authority (مثل Moz)",
+            "category": "مدفوعة مجاناً",
+            "icon": "🏆",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 119,
+            "name": "متتبع Google Trends",
+            "description": "يحلل اتجاهات جوجل",
+            "category": "مدفوعة مجاناً",
+            "icon": "📈",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 120,
+            "name": "محلل Social Blade",
+            "description": "يحلل إحصائيات السوشيال ميديا",
+            "category": "مدفوعة مجاناً",
+            "icon": "📊",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 121,
+            "name": "محلل BuzzSumo",
+            "description": "يكتشف المحتوى الأكثر انتشاراً",
+            "category": "مدفوعة مجاناً",
+            "icon": "🔥",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 122,
+            "name": "باحث SpyFu",
+            "description": "يكتشف كلمات منافسيك (مثل SpyFu)",
+            "category": "مدفوعة مجاناً",
+            "icon": "🕵️",
+            "is_premium": 1,
+            "price": 0
+        },
+        {
+            "id": 123,
+            "name": "محلل Majestic",
+            "description": "يفحص الباك لينكس (مثل Majestic)",
+            "category": "مدفوعة مجاناً",
+            "icon": "🏛️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 124,
+            "name": "محلل Shopify",
+            "description": "يحلل متاجر Shopify ويكتشف أفضل المنتجات",
+            "category": "مدفوعة مجاناً",
+            "icon": "🛍️",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 125,
+            "name": "متتبع أمازون BSR",
+            "description": "يتتبع Best Seller Rank في أمازون",
+            "category": "مدفوعة مجاناً",
+            "icon": "🏅",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 126,
+            "name": "باحث Etsy",
+            "description": "يكتشف كلمات مفتاحية لأرباح Etsy",
+            "category": "مدفوعة مجاناً",
+            "icon": "🎯",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 127,
+            "name": "محلل يوتيوب",
+            "description": "يحلل قنوات يوتيوب ويكتشف استراتيجيات النمو",
+            "category": "مدفوعة مجاناً",
+            "icon": "📺",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 128,
+            "name": "محلل إنستقرام",
+            "description": "يحلل حسابات إنستقرام ويعطي تقارير",
+            "category": "مدفوعة مجاناً",
+            "icon": "📸",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 129,
+            "name": "محقق Screaming Frog",
+            "description": "يزحف المواقع ويحلل SEO (مثل Screaming Frog)",
+            "category": "مدفوعة مجاناً",
+            "icon": "🐸",
+            "is_premium": 0,
+            "price": 0
+        },
+        {
+            "id": 4,
+            "name": "متابع الأسعار",
+            "description": "يراقب أسعار المنتجات من المواقع ويبعت إشعارات",
+            "category": "مراقبة",
+            "icon": "🔧",
+            "is_premium": 0,
+            "price": 0
+        }
+    ],
+    "total": 191
+}
